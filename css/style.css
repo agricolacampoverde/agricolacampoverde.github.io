@@ -1,0 +1,144 @@
+.header{
+  background-image:url(../img/cultivos.png);
+  background-size: auto;
+  color: white;
+  font-weight: bold;
+}
+
+.textheader{
+  padding: 40px;
+}
+.logo{
+  width: auto;
+}
+
+.footer{
+  background-image:url(../img/footer.png);
+  background-size: auto;
+  color: white;
+  font-weight: bold;
+  padding: 20px;
+}
+
+
+
+.body{
+  margin:  40px 50px;
+  background: #F8F5F5;
+  padding: 30px;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-box-shadow: 5px 5px 20px 0px #1b5300;
+  -moz-box-shadow: 5px 5px 20px 0px #1b5300;
+  box-shadow: 5px 5px 20px 0px #1b5300;
+}
+
+.titulo{
+  margin: 30px;
+}
+
+
+h2 ,h3 ,h4{
+  font-weight: bold;
+}
+
+ .marco_productos{
+   padding: 30px;
+ }
+
+ .text{
+   text-align: justify;
+ }
+
+ #accordion {
+   width: 70%;
+   margin-left: auto;
+   margin-right: auto;
+
+ }
+ .panel-title{
+   text-align: center;
+  color:#1b5300;
+ }
+
+ .panel-collapse{
+   text-align: justify;
+ }
+
+.info{
+  margin: 100px auto 80px auto;
+  border: #F25A17 5px solid;
+  border-radius: 10px 10px 10px 10px;
+  padding: 20px;
+  width: 90%;
+
+  -webkit-box-shadow: 5px 5px 20px 0px #F25A17;
+  -moz-box-shadow: 5px 5px 20px 0px #F25A17;
+  box-shadow: 5px 5px 20px 0px #F25A17;
+}
+
+.botonF1{
+  height: 70px;
+  border-radius:80%;
+  background:#F25A17;
+  right:0;
+  bottom:0;
+  position:fixed;
+  margin-right:16px;
+  margin-bottom:16px;
+  border:none;
+  outline:none;
+  color:#FFF;
+  font-size:20px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  transition:.3s;
+}
+
+.modal-header{
+  height:60px;
+  background-image:url(../img/jengibre.jpg);
+}
+.modal-footer{
+  height:60px;
+  background-image:url(../img/cebolla.jpg);
+}
+
+#myModal, .modal-dialog{
+  width:300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+address{
+  font-size: 15px;
+  margin: 20px auto;
+  color: #1a5200;
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+  .textheader{
+    padding: 0px;
+    text-align: center;
+  }
+  .logo{
+    width: 50%;
+  }
+  #accordion {
+     width: 100%;
+   }
+   .body{
+     margin:  10px;
+     padding: 10px;
+   }
+
+   .botonF1{
+     height: 50px;
+     border-radius:80%;
+     font-size:15px;
+     box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+     transition:.3s;
+   }
+
+
+
+}
